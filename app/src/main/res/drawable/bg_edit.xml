@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <corners android:radius="2px"/>
-    <solid android:color="@color/white"/>
-    <stroke android:color="#e4e6eb" android:width="1dp"/>
-</shape>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false"
+        android:drawable="@drawable/bg_edit_nofocused"/>
+    <item android:state_focused="true"
+        android:drawable="@drawable/bg_edit_focused" />
+</selector>

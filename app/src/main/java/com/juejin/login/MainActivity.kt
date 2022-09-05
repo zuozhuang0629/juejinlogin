@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
         mBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(mBinding.root)
 
-
         mBinding.button.setOnClickListener {
             LoginDialog().show(supportFragmentManager, "")
         }
