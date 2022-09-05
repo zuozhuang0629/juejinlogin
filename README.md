@@ -583,11 +583,6 @@ mBinding.btnLogin.setOnClickListener {
 }
 ```
 
-## 总结
-
-到这里我们模仿掘金Web端登录就成功了，如果想看源码在这里[传送门](https://github.com/zuozhuang0629/juejinlogin.git)
-
-
 
 
 
